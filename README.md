@@ -1,27 +1,23 @@
-# AngularBlogGalery
+**Development of a Static Image Gallery with Angular**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+In this exciting activity from the Angular course, participants will have the opportunity to apply their acquired knowledge to create a static image gallery for a blog. This practical activity is designed to solidify fundamental Angular concepts, empowering students to build an interactive and aesthetically pleasing web application.
 
-## Development server
+**Activity Objectives:**
+1. **Angular Component Manipulation:** Participants will create Angular components to efficiently structure the application, promoting modular and reusable code organization.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. **Integration of Routing:** The activity includes configuring and implementing Angular routing to facilitate navigation between different sections of the image gallery.
 
-## Code scaffolding
+3. **Services and Component Communication:** Students will be challenged to implement Angular services to manage the retrieval and display of images, fostering efficient communication between application components.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+4. **Styling with Angular Material:** Styling of the gallery will be enhanced using the visual features of Angular Material, providing a modern and appealing user experience.
 
-## Build
+5. **Responsiveness and Flexible Layouts:** The activity will cover techniques to ensure gallery responsiveness on different devices, promoting a consistent and adaptable user experience.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+6. **Integration of Animations:** Participants will learn to incorporate Angular animations to add dynamism and polish to the image gallery, providing a visually pleasing interaction.
 
-## Running unit tests
+7. **State Management with Observables:** The use of observables will be explored to manage the application's state, allowing dynamic updates to the gallery as new images are added.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Expected Outcome:**
+By the end of this activity, participants will have developed a fully functional static image gallery, incorporating essential Angular principles. The resulting application will be not only technically sound but also visually appealing, providing a memorable user experience for blog visitors.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This practical activity will serve as a significant milestone in each participant's journey towards proficiency in Angular development, empowering them to apply these skills in real-world web projects.
