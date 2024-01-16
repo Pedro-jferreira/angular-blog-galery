@@ -1,1 +1,25 @@
-<p>home works!</p>
+<app-menu></app-menu>
+<app-big-title></app-big-title>
+<div class="container">
+  <app-big-card
+  [Id]="dataFake[0].id"
+    [urlPhoto]="dataFake[0].urlPhoto"
+    [date]="dataFake[0].date"
+    [local]="dataFake[0].local"
+    [description]="dataFake[0].description"
+
+  ></app-big-card>
+  <div class="container-small-card">
+    <app-small-card
+    [Id]="dataFake[1].id"
+    [urlPhoto]="dataFake[1].urlPhoto"
+    [date]="dataFake[1].date"
+
+    ></app-small-card>
+    <app-small-card
+    [Id]="dataFake[2].id"
+    [urlPhoto]="dataFake[2].urlPhoto"
+    [date]="dataFake[2].date"
+    ></app-small-card>
+  </div>
+</div>

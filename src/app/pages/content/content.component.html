@@ -1,1 +1,12 @@
-<p>content works!</p>
+<div class="container">
+  <button (click)= "navigateToHome()"> <- voltar</button>
+  <app-big-title [title]="title"></app-big-title>
+  <p class="subTitle">{{ description }}</p>
+  <div class="containerContent">
+    <img src="{{ urlPhoto }}" alt="" />
+      <div class="data"> {{date?.toLocaleDateString()}}</div>
+      <div class="local">&#8226; {{local}}</div>
+    <p>{{ fullDescription }}</p>
+  </div>
+<button (click)= "navigateToHome()"> <- voltar</button>
+</div>

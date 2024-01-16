@@ -5,7 +5,7 @@ import { ContentComponent } from './pages/content/content.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: '', component: ContentComponent },
+  { path: 'content/:id', component: ContentComponent },
 ];
 
 @NgModule({

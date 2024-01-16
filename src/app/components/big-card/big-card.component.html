@@ -1,1 +1,11 @@
-<p>big-card works!</p>
+<div class="container">
+  <a [routerLink]="['/content',Id]">
+  <img src="{{urlPhoto}}" alt="" class="image" />
+  <div class="data">{{date?.toLocaleDateString()}}</div>
+  <div class="local">{{local}}</div>
+  <div class="description">
+    <p class="local_reference"> &#8226;{{local}}</p>
+    <p class="text">{{description}} </p>
+  </div>
+</a>
+</div>

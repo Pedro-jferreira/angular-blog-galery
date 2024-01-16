@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+
+}
+
+app-big-card {
+  height: 95%;
+  width: 35%;
+  margin-left: 15%;
+}
+
+.container-small-card {
+  display: flex;
+  width: 20%;
+  height: 95%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 25%;
+}
+
+.container-small-card>app-small-card {
+
+  width: 80%;
+  height: 49%;
+}
